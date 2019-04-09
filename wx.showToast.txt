@@ -1,0 +1,21 @@
+wx.showToast({
+
+      title: 'loginok£¡',
+
+      duration: 2000,
+
+      success: function () {
+
+           setTimeout(function () {
+
+           wx.switchTab({
+
+                url: '../person',
+
+           })
+
+           },2000);
+
+      }
+
+})
